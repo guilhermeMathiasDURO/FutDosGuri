@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CadastrarClubeActivity">
+
+    <EditText
+        android:id="@+id/et_nome_clube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nome do Clube"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_qntd_jogador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Numero de jogadores"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_cnpj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CNPJ"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_numero_clube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Numero do Time "
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_tecnico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nome Tecnico"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bt_criar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="criar" />
+</LinearLayout>
