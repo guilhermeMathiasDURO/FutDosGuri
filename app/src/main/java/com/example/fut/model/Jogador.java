@@ -1,4 +1,4 @@
-package br.com.integrador.futdosguri.model;
+package com.example.fut.model;
 
 public class Jogador {
 
